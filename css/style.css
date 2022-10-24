@@ -4,6 +4,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	color: #6c7279;
+	-webkit-font-smoothing: antialiased;
 
 	background-color: #fff;
 }
@@ -114,9 +115,40 @@ margin: 0 0 30px;
 }
 
 .intro__subtitle {
+	margin-bottom: 60px;
+
 	font-size: 22px;
 	color: #fff;
 	line-height: 1.5;
 	font-weight: 400;
 }
 
+/* Buttons
+======================== */
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 14px 40px;
+
+	border-radius: 3px;
+	border: 0;
+	cursor: pointer;
+
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	transition: background 0.2s linear;
+}
+
+.btn--red {
+	background-color: #e84545;
+}
+
+.btn--red:hover {
+	background-color: #aa3434;
+}
