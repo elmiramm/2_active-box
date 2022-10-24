@@ -1,5 +1,6 @@
 body {
-margin: 0;
+	margin: 0;
+	background-color: black;
 
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
@@ -11,3 +12,58 @@ margin: 0;
 *:after {
 	box-sizing: border-box;
 }
+
+/* Container 
+========================*/
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/* Header
+======================== */
+.header {
+	
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0;
+
+	border-bottom: 1px solid #505369;
+}
+
+/* Nav
+======================== */
+.nav {
+	display: flex;
+
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.nav__link {
+	margin-left: 50px;
+	color: #fff;
+	text-decoration: none;
+	opacity: .75;
+
+	transition: opacity .2s linear;
+}
+
+.nav__link:first-child {
+	margin-left: 0;
+}
+
+.nav__link:hover {
+	opacity: 1;
+}
+
+/* Intro
+======================== */
+
