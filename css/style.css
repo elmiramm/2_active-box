@@ -296,7 +296,7 @@ margin: 0 0 30px;
 }
 
 .team__text {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 
 	font-size: 14px;
 	line-height: 1.5;
@@ -314,12 +314,11 @@ margin: 0 0 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	margin-right: 4px;
-
 	width: 40px;
 	height: 40px;
 
+	background-color: #fff;
 	border: 1px solid #e8ecee;
 
 	transition: background-color 0.2s linear;
@@ -327,4 +326,16 @@ margin: 0 0 30px;
 
 .social__item:hover {
 	background-color: #e8ecee;
+}
+
+.social__item:hover .social__icon {
+	fill: #e84545;
+}
+
+.social__icon {
+	display: block;
+	fill: #c6cacc;
+	height: 24px;
+
+	transition: fill 0.2s linear;
 }
