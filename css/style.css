@@ -143,6 +143,7 @@ margin: 0 0 30px;
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
+	text-align: center;
 
 	transition: background 0.2s linear;
 }
@@ -155,6 +156,9 @@ margin: 0 0 30px;
 	background-color: #aa3434;
 }
 
+.btn--long {
+	min-width: 280px;
+}
 
 /* Features
 ======================== */
@@ -391,3 +395,30 @@ margin: 0 0 30px;
 	text-transform: uppercase;
 	color: #fff;
 }
+
+/* Download
+======================== */
+
+.download {
+	margin: 90px 0;
+
+	text-align: center;
+}
+
+.download__title {
+	margin-bottom: 5px;
+
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+}
+
+.download__text {
+	margin-bottom: 30px;
+
+	font-size: 13px;
+	font-weight: 700;
+	color: #2d3033;
+	text-transform: uppercase;
+}
+
