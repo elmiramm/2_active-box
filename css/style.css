@@ -691,4 +691,28 @@ margin: 0 0 30px;
 	.download__title {
 		font-size: 24px;
 	}
+
+	/* Footer */
+	.footer__inner {
+		padding: 30px 0;
+}
+
+	.footer__block {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		margin-bottom: 30px;
+	}
+
+	.footer__block:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 414px) {
+
+	/* Reviews */
+	.reviews__img {
+		right: -100px;
+	}
 }
