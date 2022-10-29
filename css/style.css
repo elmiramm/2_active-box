@@ -676,7 +676,19 @@ margin: 0 0 30px;
 /* Reviews */
 	.reviews__text {
 		font-size: 25px;
-
 }
 
+	/* Buttons */
+	.btn--long {
+		min-width: 260px;
+	}
+
+	/* Download */ 
+	.download {
+		margin: 50px 0;
+	}
+
+	.download__title {
+		font-size: 24px;
+	}
 }
