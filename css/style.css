@@ -610,7 +610,22 @@ margin: 0 0 30px;
 	}
 
 	/* Reviews */
+	.reviews__photo {
+		width: 100%;
+		margin: 15px 0 40px;
+		overflow: hidden;
+	}
 
+	.reviews__content {
+		width: 100%;
+		padding-left: 0;
+		padding-bottom: 40px;
+	}
+
+	.reviews__img {
+		min-width: 991px;
+		right: -15px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -657,4 +672,11 @@ margin: 0 0 30px;
 	.team__item {
 		width: 100%;
 }
+
+/* Reviews */
+	.reviews__text {
+		font-size: 25px;
+
+}
+
 }
