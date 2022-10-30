@@ -46,6 +46,18 @@ p {
 	z-index: 1000;
 }
 
+.header.fixed {
+	height: auto;
+	position: fixed;
+
+	background-color: #333751; 
+}
+
+.header.fixed .header__inner {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 .header__inner {
 	display: flex;
 	justify-content: space-between;
@@ -54,6 +66,8 @@ p {
 
 	border-bottom: 1px solid #505369;
 }
+
+
 
 /* Nav
 ======================== */
